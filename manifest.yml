@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: asim3iot
+  host: asim3iot
+  disk_quota: 1024M
+  services:
+  - asim3iot-cloudantNoSQLDB
